@@ -1,0 +1,284 @@
+{
+  "floors": {
+    "F1": {
+      "area": 30,
+      "exhaust": 5
+    },
+    "F2": {
+      "area": 28,
+      "exhaust": 6
+    }
+  },
+  "candidates": [
+    {
+      "brand": "b00",
+      "category": "retail",
+      "area": 2,
+      "exhaust": 0,
+      "cost": 3,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b01",
+      "category": "dining",
+      "area": 3,
+      "exhaust": 1,
+      "cost": 4,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b02",
+      "category": "entertainment",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 5,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b03",
+      "category": "retail",
+      "area": 5,
+      "exhaust": 1,
+      "cost": 6,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b04",
+      "category": "dining",
+      "area": 2,
+      "exhaust": 0,
+      "cost": 7,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b05",
+      "category": "entertainment",
+      "area": 3,
+      "exhaust": 1,
+      "cost": 8,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b06",
+      "category": "retail",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 9,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b07",
+      "category": "dining",
+      "area": 5,
+      "exhaust": 1,
+      "cost": 3,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b08",
+      "category": "entertainment",
+      "area": 2,
+      "exhaust": 0,
+      "cost": 4,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b09",
+      "category": "retail",
+      "area": 3,
+      "exhaust": 1,
+      "cost": 5,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b10",
+      "category": "dining",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 6,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b11",
+      "category": "entertainment",
+      "area": 5,
+      "exhaust": 1,
+      "cost": 7,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b12",
+      "category": "retail",
+      "area": 2,
+      "exhaust": 0,
+      "cost": 8,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b13",
+      "category": "dining",
+      "area": 3,
+      "exhaust": 1,
+      "cost": 9,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b14",
+      "category": "entertainment",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 3,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b15",
+      "category": "retail",
+      "area": 5,
+      "exhaust": 1,
+      "cost": 4,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b16",
+      "category": "dining",
+      "area": 2,
+      "exhaust": 0,
+      "cost": 5,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b17",
+      "category": "entertainment",
+      "area": 3,
+      "exhaust": 1,
+      "cost": 6,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b18",
+      "category": "retail",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 7,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b19",
+      "category": "dining",
+      "area": 5,
+      "exhaust": 1,
+      "cost": 8,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b20",
+      "category": "entertainment",
+      "area": 2,
+      "exhaust": 0,
+      "cost": 9,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b21",
+      "category": "retail",
+      "area": 3,
+      "exhaust": 1,
+      "cost": 3,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "b22",
+      "category": "dining",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 4,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "brand": "b23",
+      "category": "entertainment",
+      "area": 5,
+      "exhaust": 1,
+      "cost": 5,
+      "allowed_floors": [
+        "F1",
+        "F2"
+      ]
+    }
+  ],
+  "constraints": {
+    "budget": 50,
+    "minimum_distinct_categories": 3,
+    "mutually_exclusive": [
+      [
+        "b00",
+        "b06"
+      ],
+      [
+        "b07",
+        "b13"
+      ]
+    ]
+  }
+}

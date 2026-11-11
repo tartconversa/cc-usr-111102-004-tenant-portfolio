@@ -1,0 +1,56 @@
+{
+  "scenarios": [
+    {
+      "scenario": "busy",
+      "probability": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "contribution": {
+        "A": 8,
+        "B": 8,
+        "C": 4,
+        "D": 11
+      },
+      "pair_losses": [
+        {
+          "brands": [
+            "A",
+            "B"
+          ],
+          "loss": 5
+        }
+      ]
+    },
+    {
+      "scenario": "quiet",
+      "probability": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "contribution": {
+        "A": 8,
+        "B": 8,
+        "C": 4,
+        "D": 2
+      },
+      "pair_losses": [
+        {
+          "brands": [
+            "A",
+            "B"
+          ],
+          "loss": 5
+        }
+      ]
+    }
+  ],
+  "budget_scan": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "search_node_budget": 100000
+}

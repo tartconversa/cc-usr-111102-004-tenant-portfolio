@@ -1,0 +1,64 @@
+{
+  "floors": {
+    "F1": {
+      "area": 4,
+      "exhaust": 0
+    },
+    "F2": {
+      "area": 4,
+      "exhaust": 2
+    }
+  },
+  "candidates": [
+    {
+      "brand": "A",
+      "category": "retail",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 5,
+      "allowed_floors": [
+        "F1"
+      ]
+    },
+    {
+      "brand": "B",
+      "category": "dining",
+      "area": 4,
+      "exhaust": 2,
+      "cost": 5,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "C",
+      "category": "dining",
+      "area": 4,
+      "exhaust": 1,
+      "cost": 4,
+      "allowed_floors": [
+        "F2"
+      ]
+    },
+    {
+      "brand": "D",
+      "category": "entertainment",
+      "area": 4,
+      "exhaust": 0,
+      "cost": 3,
+      "allowed_floors": [
+        "F1"
+      ]
+    }
+  ],
+  "constraints": {
+    "budget": 10,
+    "minimum_distinct_categories": 2,
+    "mutually_exclusive": [
+      [
+        "B",
+        "C"
+      ]
+    ]
+  }
+}

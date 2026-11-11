@@ -1,0 +1,22 @@
+[
+  {
+    "path": "fixtures/candidates-large.json",
+    "sha256": "2efbb9d4bfbcf31033b6be2d27468fd6827794c3e836c1345beb1c5b9830bd81",
+    "size_bytes": 4576
+  },
+  {
+    "path": "fixtures/candidates.json",
+    "sha256": "1bf0ecb22ac1f41e8b9b26503d525bcb9630065ee518a5871b66b24ef2b785c1",
+    "size_bytes": 963
+  },
+  {
+    "path": "fixtures/scenarios-large.json",
+    "sha256": "584e70055b8fd368cb9578c3d10de611e27a6676224cd96193d892c446dd5d8c",
+    "size_bytes": 3652
+  },
+  {
+    "path": "fixtures/scenarios.json",
+    "sha256": "e215d38413b32d9f2c2e6f1bd77b4aa3d2a4ea233522f0c889818d12739fb741",
+    "size_bytes": 827
+  }
+]
